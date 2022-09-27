@@ -7,5 +7,9 @@ public class Tamagotchi
     Random rand = new Random(10);
     String name = slaveFORchildren
 
+    void Feed()
+    {
+        hunger-=10;
+    }
     
 }
